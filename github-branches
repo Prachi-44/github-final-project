@@ -1,0 +1,21 @@
+Prachi Dudhankar@LAPTOP-KLST8GOP MINGW64 ~/mcino-Introduction-to-Git-and-GitHub (bug-fix-revert)
+$ git branch -a
+* bug-fix-revert
+  bug-fix-typo
+  main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-revert
+  remotes/origin/main
+
+Prachi Dudhankar@LAPTOP-KLST8GOP MINGW64 ~/mcino-Introduction-to-Git-and-GitHub (bug-fix-revert)
+$ git branch -vv
+* bug-fix-revert 26cfcaf [origin/bug-fix-revert] Revert "Fix typo in README"
+  bug-fix-typo   fc499ca Fix typo in README
+  main           fc499ca [origin/main: ahead 1] Fix typo in README
+
+$ git status
+On branch bug-fix-revert
+Your branch is up to date with 'origin/bug-fix-revert'.
+
+nothing to commit, working tree clean
+
